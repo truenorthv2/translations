@@ -1,2 +1,2 @@
-# translations
- Help us translate our scripts so we can make them accessible to more people!
+# Lation Scripts Translations
+To contribute, fork the repository and make a new pull request with your changes - you can submit new locale files or update existing one(s) with improvements.
