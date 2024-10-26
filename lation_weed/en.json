@@ -21,7 +21,8 @@
         "one-removed": "Plant removed from the map",
         "copied-coords": "Successfully copied to clipboard",
         "set-gps": "Your GPS has been updated",
-        "cant-carry": "You cannot carry that much"
+        "cant-carry": "You cannot carry that much",
+        "not-authorized": "You are not authorized to enter"
     },
     "target": {
         "open-shop": "Open shop",
@@ -61,6 +62,43 @@
         "colors-yellow": "yellow",
         "colors-red": "red"
     },
+    "admin-menu": {
+        "main-menu-title": "Plant Management",
+        "total-title": "Total Plant Count",
+        "total-desc": "There are currently %d active plant(s)",
+        "by-id-title": "View Plants by Plant ID",
+        "by-id-desc": "View details of each plant by its ID",
+        "by-owner-title": "View Plants by Owner",
+        "by-owner-desc": "View all plants grouped by their owners",
+        "add-blips-title": "Add Blips to Map",
+        "add-blips-desc": "Display all plants as blips on the map",
+        "remove-blips-title": "Remove Blips from Map",
+        "remove-blips-desc": "Remove all plant blips from the map",
+        "by-id-menu-main-title": "Plants by ID",
+        "by-id-menu-plant-title": "Plant ID: %d",
+        "by-id-menu-plant-desc": "Click to view details",
+        "by-owner-menu-main-title": "Plants by Owner",
+        "by-owner-menu-owner-title": "Owner | Click to view plants",
+        "plants-of-owner-main-title": "Plants of Owner",
+        "plants-of-owner-title": "Plant ID: %d",
+        "plants-of-owner-desc": "Click to view details",
+        "plant-details-main-title": "Plant ID: %d",
+        "plant-details-owner-online-title": "Owner | ONLINE",
+        "plant-details-owner-offline-title": "Owner | OFFLINE",
+        "plant-details-location-title": "Location",
+        "plant-details-teleport-title": "Teleport to Plant",
+        "plant-details-teleport-desc": "Teleport to the plant location",
+        "plant-details-gps-title": "Set GPS to Plant",
+        "plant-details-gps-desc": "Create a waypoint to the plant",
+        "plant-details-add-blip-title": "Add to Map",
+        "plant-details-add-blip-desc": "Create a blip for this plant",
+        "plant-details-remove-blip-title": "Remove from Map",
+        "plant-details-remove-blip-desc": "Remove the blip for this plant",
+        "plant-details-delete-title": "Delete Plant",
+        "plant-details-delete-desc": "Irreversibly delete this plant",
+        "plant-details-copy-coords": "Click to copy coordinates to clipboard",
+        "plant-details-copy-identifier": "Click to copy identifier to clipboard"
+    },
     "destroy-alert": {
         "header": "**Confirm**",
         "content": "You are about to irreversibly destroy this plant and receive nothing in return, *are you sure you want to continue?*"
@@ -90,5 +128,23 @@
     "shop-input": {
         "label": "Quantity",
         "desc": "How many do you want to purchase?"
+    },
+    "logs": {
+        "searching-title": "Seeds Found",
+        "searching-message": "%s (identifier: %s) has found x%d %s seeds",
+        "planted-title": "New Plant",
+        "planted-message": "%s (identifier: %s) has planted a new %s plant ",
+        "plant-fed-title": "Plant Fertilized",
+        "plant-fed-message": "%s (identifier: %s) has fertilized a plant (id: %d)",
+        "plant-watered-title": "Plant Watered",
+        "plant-watered-message": "%s (identifier: %s) has watered a plant (id: %d)",
+        "plant-harvested-title": "Plant Harvested",
+        "plant-harvested-message": "%s (identifier: %s) has harvested a plant and received x%d %s and x%d %s",
+        "plant-deleted-title": "Plant Deleted",
+        "plant-deleted-message": "%s (identifier: %s) has deleted a plant (id: %d)",
+        "weed-rolled-title": "Joint(s) Rolled",
+        "weed-rolled-message": "%s (identifier: %s) has rolled x%d %s",
+        "weed-bagged-title": "Weed Bagged",
+        "weed-bagged-message": "%s (identifier: %s) has bagged %d %s"
     }
 }
