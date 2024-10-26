@@ -1,0 +1,94 @@
+{
+    "notify": {
+        "already-searched": "This plant was searched already",
+        "found-nothing": "You didn't find anything of interest here",
+        "max-plants": "You cannot plant anymore plants right now",
+        "no-vehicle": "Am I high? Where in this car would I plant this..?",
+        "cant-plant": "You cannot plant here",
+        "missing-item": "I am missing something here..",
+        "no-bud": "You do not have enough bud to do this",
+        "no-pot": "You are missing a pot to plant this in",
+        "pot-broke": "You broke the plant pot while harvesting",
+        "no-shovel": "You do not have a shovel to plant this",
+        "no-water": "You do not have a watering can",
+        "no-fertilizer": "You do not have any fertilizer",
+        "no-shears": "You do not have any shears to harvest this",
+        "no-money": "You do not have enough money",
+        "no-police": "There are not enough police in the city",
+        "all-added": "All plants have been added to the map",
+        "all-removed": "All plants have been removed from the map",
+        "one-added": "Plant added to the map",
+        "one-removed": "Plant removed from the map",
+        "copied-coords": "Successfully copied to clipboard",
+        "set-gps": "Your GPS has been updated",
+        "cant-carry": "You cannot carry that much"
+    },
+    "target": {
+        "open-shop": "Open shop",
+        "search-plant": "Search",
+        "check-status": "Check status",
+        "enter-lab": "Enter",
+        "exit-lab": "Exit",
+        "roll-weed": "Roll weed",
+        "bag-weed": "Bag weed"
+    },
+    "textui": {
+        "placement-controls": "**Controls**  \n **W**: Move Forward  \n **S**: Move Backward  \n **A**: Move Left  \n **D**: Move Right  \n **X**: Cancel  \n **Space**: Confirm",
+        "open-shop": "**Smoke on the Water**  \n E - Open Shop",
+        "search-plant": "**Weed Plant**  \n E - Search",
+        "check-status": "**Weed Plant**  \n E - Check status",
+        "enter-lab": "**Weed Lab**  \n E - Enter",
+        "exit-lab": "**Weed Lab**  \n E - Exit",
+        "roll-weed": "**Rolling Table**  \n E - Start Rolling",
+        "bag-weed": "**Bagging Table**  \n E - Start Bagging"
+    },
+    "plant-menu": {
+        "police-title": "Police Actions",
+        "thirst-title": "Thirst",
+        "thirst-desc": "Current thirst level - %.1f%% (Click here to water)",
+        "hunger-title": "Hunger",
+        "hunger-desc": "Current hunger level - %.1f%% (Click here to feed)",
+        "growth-title": "Growth",
+        "growth-desc": "Current growth level - %.1f%%",
+        "quality-title": "Quality",
+        "quality-desc": "Current quality level - %.1f%%",
+        "destroy-title": "Destroy",
+        "destroy-desc": "Irreversibly destroy this plant",
+        "harvest-title": "Harvest",
+        "harvest-desc-not-ready": "Harvesting is only available at 100% growth",
+        "harvest-desc-ready": "You can now harvest this plant",
+        "colors-green": "green",
+        "colors-yellow": "yellow",
+        "colors-red": "red"
+    },
+    "destroy-alert": {
+        "header": "**Confirm**",
+        "content": "You are about to irreversibly destroy this plant and receive nothing in return, *are you sure you want to continue?*"
+    },
+    "rolling-menu": {
+        "title": "Rolling Table",
+        "desc": "You have %d %s available"
+    },
+    "bagging-menu": {
+        "title": "Bagging Table",
+        "desc": "You have %d %s available"
+    },
+    "shop-menu": {
+        "title": "Smoke on the Water",
+        "desc": "Purchase %s for $%s"
+    },
+    "rolling-input": {
+        "title": "Rolling Table",
+        "label": "Quantity",
+        "desc": "How many %s's do you want to roll?"
+    },
+    "bagging-input": {
+        "title": "Bagging Table",
+        "label": "Quantity",
+        "desc": "How many %s's do you want to bag?"
+    },
+    "shop-input": {
+        "label": "Quantity",
+        "desc": "How many do you want to purchase?"
+    }
+}
