@@ -3,15 +3,16 @@
         "already-searched": "This plant was searched already",
         "found-nothing": "You didn't find anything of interest here",
         "max-plants": "You cannot plant anymore plants right now",
+        "max-tables": "You cannot place anymore tables right now",
         "no-vehicle": "Am I high? Where in this car would I plant this..?",
-        "cant-plant": "You cannot plant here",
+        "cant-place": "You cannot place that here",
         "missing-item": "I am missing something here..",
         "no-bud": "You do not have enough bud to do this",
         "no-pot": "You are missing a pot to plant this in",
         "pot-broke": "You broke the plant pot while harvesting",
         "no-shovel": "You do not have a shovel to plant this",
-        "no-water": "You do not have a watering can",
-        "no-fertilizer": "You do not have any fertilizer",
+        "no-water": "You do not have enough water",
+        "no-fertilizer": "You do not have enough fertilizer",
         "no-shears": "You do not have any shears to harvest this",
         "no-money": "You do not have enough money",
         "no-police": "There are not enough police in the city",
@@ -22,7 +23,8 @@
         "copied-coords": "Successfully copied to clipboard",
         "set-gps": "Your GPS has been updated",
         "cant-carry": "You cannot carry that much",
-        "not-authorized": "You are not authorized to enter"
+        "not-authorized": "You are not authorized to enter",
+        "not-experienced": "You are not experienced enough to do this"
     },
     "target": {
         "open-shop": "Open shop",
@@ -31,17 +33,20 @@
         "enter-lab": "Enter",
         "exit-lab": "Exit",
         "roll-weed": "Roll weed",
-        "bag-weed": "Bag weed"
+        "bag-weed": "Bag weed",
+        "use-table": "Use table"
     },
     "textui": {
-        "placement-controls": "**Controls**  \n **W**: Move Forward  \n **S**: Move Backward  \n **A**: Move Left  \n **D**: Move Right  \n **X**: Cancel  \n **Space**: Confirm",
+        "weed-placement": "**Controls**  \n **W**: Move Forward  \n **S**: Move Backward  \n **A**: Move Left  \n **D**: Move Right  \n **X**: Cancel  \n **Space**: Confirm",
+        "table-placement": "**Controls**  \n **Q**: Rotate Left  \n **E**: Rotate Right  \n **W**: Move Forward  \n **S**: Move Backward  \n **A**: Move Left  \n **D**: Move Right  \n **X**: Cancel  \n **Space**: Confirm",
         "open-shop": "**Smoke on the Water**  \n E - Open Shop",
         "search-plant": "**Weed Plant**  \n E - Search",
         "check-status": "**Weed Plant**  \n E - Check status",
         "enter-lab": "**Weed Lab**  \n E - Enter",
         "exit-lab": "**Weed Lab**  \n E - Exit",
         "roll-weed": "**Rolling Table**  \n E - Start Rolling",
-        "bag-weed": "**Bagging Table**  \n E - Start Bagging"
+        "bag-weed": "**Bagging Table**  \n E - Start Bagging",
+        "use-table": "**Weed Table**  \n E - Use"
     },
     "plant-menu": {
         "police-title": "Police Actions",
@@ -62,10 +67,39 @@
         "colors-yellow": "yellow",
         "colors-red": "red"
     },
+    "stats-menu": {
+        "level-title": "Growing | Level %s/%s",
+        "level-desc": "You currently have %sXP",
+        "stats-title": "Lifetime Statistics",
+        "stats-desc": "View your lifetime growing statistics",
+        "meta-next-level": "Next Level",
+        "meta-remainder": "Remainder",
+        "meta-maxed-level": "Maxed Level Reached",
+        "main-title": "Lifetime Statistics",
+        "searched-title": "Plants Searched",
+        "searched-desc": "You've searched a total of %s plants",
+        "grown-title": "Plants Grown",
+        "grown-desc": "You've grown a total of %s plants",
+        "produced-title": "Bud Harvested",
+        "produced-desc": "You've harvested a total of %s bud",
+        "rolled-title": "Joints Rolled",
+        "rolled-desc": "You've rolled a total of %s joints",
+        "bagged-title": "Weed Bagged",
+        "bagged-desc": "You've bagged a total of %s weed"
+    },
+    "table-menu": {
+        "main-menu-title": "Select Action",
+        "rolling-title": "Start Rolling",
+        "rolling-desc": "Select to see rolling menu",
+        "bagging-title": "Start Bagging",
+        "bagging-desc": "Select to see bagging menu",
+        "packup-title": "Pack Up",
+        "packup-desc": "Pack everything up and move this table"
+    },
     "admin-menu": {
         "main-menu-title": "Plant Management",
         "total-title": "Total Plant Count",
-        "total-desc": "There are currently %d active plant(s)",
+        "total-desc": "There are currently %s active plant(s)",
         "by-id-title": "View Plants by Plant ID",
         "by-id-desc": "View details of each plant by its ID",
         "by-owner-title": "View Plants by Owner",
@@ -75,14 +109,14 @@
         "remove-blips-title": "Remove Blips from Map",
         "remove-blips-desc": "Remove all plant blips from the map",
         "by-id-menu-main-title": "Plants by ID",
-        "by-id-menu-plant-title": "Plant ID: %d",
+        "by-id-menu-plant-title": "Plant ID: %s",
         "by-id-menu-plant-desc": "Click to view details",
         "by-owner-menu-main-title": "Plants by Owner",
         "by-owner-menu-owner-title": "Owner | Click to view plants",
         "plants-of-owner-main-title": "Plants of Owner",
-        "plants-of-owner-title": "Plant ID: %d",
+        "plants-of-owner-title": "Plant ID: %s",
         "plants-of-owner-desc": "Click to view details",
-        "plant-details-main-title": "Plant ID: %d",
+        "plant-details-main-title": "Plant ID: %s",
         "plant-details-owner-online-title": "Owner | ONLINE",
         "plant-details-owner-offline-title": "Owner | OFFLINE",
         "plant-details-location-title": "Location",
@@ -99,21 +133,25 @@
         "plant-details-copy-coords": "Click to copy coordinates to clipboard",
         "plant-details-copy-identifier": "Click to copy identifier to clipboard"
     },
-    "destroy-alert": {
-        "header": "**Confirm**",
-        "content": "You are about to irreversibly destroy this plant and receive nothing in return, *are you sure you want to continue?*"
-    },
     "rolling-menu": {
         "title": "Rolling Table",
-        "desc": "You have %d %s available"
+        "desc": "You have %s %s available"
     },
     "bagging-menu": {
         "title": "Bagging Table",
-        "desc": "You have %d %s available"
+        "desc": "You have %s %s available"
     },
     "shop-menu": {
         "title": "Smoke on the Water",
         "desc": "Purchase %s for $%s"
+    },
+    "destroy-alert": {
+        "header": "**Confirm**",
+        "content": "You are about to irreversibly destroy this plant and receive nothing in return, *are you sure you want to continue?*"
+    },
+    "pickup-alert": {
+        "header": "**Confirm Action**",
+        "content": "Are you sure you want to pack up the table?"
     },
     "rolling-input": {
         "title": "Rolling Table",
@@ -130,21 +168,21 @@
         "desc": "How many do you want to purchase?"
     },
     "logs": {
-        "searching-title": "Seeds Found",
-        "searching-message": "%s (identifier: %s) has found x%d %s seeds",
+        "searched-title": "Seeds Found",
+        "searched-message": "%s (identifier: %s) has found x%s %s",
         "planted-title": "New Plant",
         "planted-message": "%s (identifier: %s) has planted a new %s plant ",
         "plant-fed-title": "Plant Fertilized",
-        "plant-fed-message": "%s (identifier: %s) has fertilized a plant (id: %d)",
+        "plant-fed-message": "%s (identifier: %s) has fertilized a plant (id: %s)",
         "plant-watered-title": "Plant Watered",
-        "plant-watered-message": "%s (identifier: %s) has watered a plant (id: %d)",
+        "plant-watered-message": "%s (identifier: %s) has watered a plant (id: %s)",
         "plant-harvested-title": "Plant Harvested",
-        "plant-harvested-message": "%s (identifier: %s) has harvested a plant and received x%d %s and x%d %s",
+        "plant-harvested-message": "%s (identifier: %s) has harvested a plant and received x%s %s and x%s %s",
         "plant-deleted-title": "Plant Deleted",
-        "plant-deleted-message": "%s (identifier: %s) has deleted a plant (id: %d)",
+        "plant-deleted-message": "%s (identifier: %s) has deleted a plant (id: %s)",
         "weed-rolled-title": "Joint(s) Rolled",
-        "weed-rolled-message": "%s (identifier: %s) has rolled x%d %s",
+        "weed-rolled-message": "%s (identifier: %s) has rolled x%s %s",
         "weed-bagged-title": "Weed Bagged",
-        "weed-bagged-message": "%s (identifier: %s) has bagged %d %s"
+        "weed-bagged-message": "%s (identifier: %s) has bagged x%s %s"
     }
 }
