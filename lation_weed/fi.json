@@ -63,9 +63,9 @@
         "harvest-title": "Korjaa",
         "harvest-desc-not-ready": "Korjaus on mahdollista vain 100% kasvutasolla",
         "harvest-desc-ready": "Voit nyt korjata tämän kasvin",
-        "colors-green": "vihreä",
-        "colors-yellow": "keltainen",
-        "colors-red": "punainen"
+        "colors-green": "green",
+        "colors-yellow": "yellow",
+        "colors-red": "red"
     },
     "stats-menu": {
         "level-title": "Kasvamis | Level %s/%s",

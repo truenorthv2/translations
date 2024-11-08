@@ -63,9 +63,9 @@
         "harvest-title": "Colher",
         "harvest-desc-not-ready": "A colheita só está disponível a 100% de crescimento",
         "harvest-desc-ready": "Podes agora colher esta planta",
-        "colors-green": "verde",
-        "colors-yellow": "amarelo",
-        "colors-red": "vermelho"
+        "colors-green": "green",
+        "colors-yellow": "yellow",
+        "colors-red": "red"
     },
     "stats-menu": {
         "level-title": "Cultivo | Nível %s/%s",

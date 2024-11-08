@@ -63,9 +63,9 @@
         "harvest-title": "Korista",
         "harvest-desc-not-ready": "Koristamine on võimalik ainult 100% kasvutase juures",
         "harvest-desc-ready": "Saad nüüd seda taime koristada",
-        "colors-green": "roheline",
-        "colors-yellow": "kollane",
-        "colors-red": "punane"
+        "colors-green": "green",
+        "colors-yellow": "yellow",
+        "colors-red": "red"
     },
     "stats-menu": {
         "level-title": "Kasvamis | Level %s/%s",
