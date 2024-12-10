@@ -62,10 +62,7 @@
         "destroy-desc": "Hävita see taim pöördumatult",
         "harvest-title": "Korista",
         "harvest-desc-not-ready": "Koristamine on võimalik ainult 100% kasvutase juures",
-        "harvest-desc-ready": "Saad nüüd seda taime koristada",
-        "colors-green": "green",
-        "colors-yellow": "yellow",
-        "colors-red": "red"
+        "harvest-desc-ready": "Saad nüüd seda taime koristada"
     },
     "stats-menu": {
         "level-title": "Kasvamis | Level %s/%s",

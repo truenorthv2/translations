@@ -62,10 +62,7 @@
         "destroy-desc": "Tuhota tämä kasvi pysyvästi",
         "harvest-title": "Korjaa",
         "harvest-desc-not-ready": "Korjaus on mahdollista vain 100% kasvutasolla",
-        "harvest-desc-ready": "Voit nyt korjata tämän kasvin",
-        "colors-green": "green",
-        "colors-yellow": "yellow",
-        "colors-red": "red"
+        "harvest-desc-ready": "Voit nyt korjata tämän kasvin"
     },
     "stats-menu": {
         "level-title": "Kasvamis | Level %s/%s",

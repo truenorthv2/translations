@@ -62,10 +62,7 @@
         "destroy-desc": "Irreversibly destroy this plant",
         "harvest-title": "Harvest",
         "harvest-desc-not-ready": "Harvesting is only available at 100% growth",
-        "harvest-desc-ready": "You can now harvest this plant",
-        "colors-green": "green",
-        "colors-yellow": "yellow",
-        "colors-red": "red"
+        "harvest-desc-ready": "You can now harvest this plant"
     },
     "stats-menu": {
         "level-title": "Growing | Level %s/%s",

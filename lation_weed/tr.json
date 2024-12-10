@@ -62,10 +62,7 @@
         "destroy-desc": "Bu bitkiyi geri dönülmez şekilde yok et",
         "harvest-title": "Hasat Et",
         "harvest-desc-not-ready": "Hasat yalnızca %100 büyüme seviyesinde yapılabilir",
-        "harvest-desc-ready": "Bu bitkiyi şimdi hasat edebilirsiniz",
-        "colors-green": "green",
-        "colors-yellow": "yellow",
-        "colors-red": "red"
+        "harvest-desc-ready": "Bu bitkiyi şimdi hasat edebilirsiniz"
     },
     "stats-menu": {
         "level-title": "Yetiştirme | Seviye %s/%s",

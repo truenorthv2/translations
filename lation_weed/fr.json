@@ -62,10 +62,7 @@
         "destroy-desc": "Détruire irréversiblement cette plante",
         "harvest-title": "Récolte",
         "harvest-desc-not-ready": "La récolte est disponible qu'à 100% de croissance",
-        "harvest-desc-ready": "Vous pouvez maintenant récolter cette plante",
-        "colors-green": "green",
-        "colors-yellow": "yellow",
-        "colors-red": "red"
+        "harvest-desc-ready": "Vous pouvez maintenant récolter cette plante"
     },
     "stats-menu": {
         "level-title": "Croissance | Niveau %s/%s",

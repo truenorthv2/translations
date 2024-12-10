@@ -62,10 +62,7 @@
         "destroy-desc": "Destruir esta planta irreversivelmente",
         "harvest-title": "Colher",
         "harvest-desc-not-ready": "A colheita só está disponível a 100% de crescimento",
-        "harvest-desc-ready": "Podes agora colher esta planta",
-        "colors-green": "green",
-        "colors-yellow": "yellow",
-        "colors-red": "red"
+        "harvest-desc-ready": "Podes agora colher esta planta"
     },
     "stats-menu": {
         "level-title": "Cultivo | Nível %s/%s",

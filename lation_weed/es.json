@@ -62,10 +62,7 @@
         "destroy-desc": "Destruye irreversiblemente esta planta.",
         "harvest-title": "cosechar",
         "harvest-desc-not-ready": "La cosecha solo está disponible al 100% de crecimiento.",
-        "harvest-desc-ready": "Ya puedes cosechar esta planta.",
-        "colors-green": "green",
-        "colors-yellow": "yellow",
-        "colors-red": "red"
+        "harvest-desc-ready": "Ya puedes cosechar esta planta."
     },
     "stats-menu": {
         "level-title": "Creciendo | Nivel %s/%s",
