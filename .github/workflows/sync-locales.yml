@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'lation_247robbery/**'
   workflow_dispatch:
 
 jobs:
@@ -22,5 +24,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
-          git commit -m "Sync locales from translations repository"
+          git commit -m "chore(locales): automated sync from translations repo"
           git push https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/IamLation/lation_247robbery.git main
