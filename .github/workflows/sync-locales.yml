@@ -1,0 +1,28 @@
+name: Sync Locales to lation_247robbery
+
+on:
+  push:
+    branches:
+      - main  # Trigger workflow when changes are pushed to the main branch
+  workflow_dispatch:  # Allow manual triggering of the workflow
+
+jobs:
+  sync-locales:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout translations repository
+        uses: actions/checkout@v3
+
+      - name: Clone target repository
+        run: |
+          git clone https://github.com/IamLation/lation_247robbery.git target_repo
+          cp -r lation_247robbery/* target_repo/locales/
+          cd target_repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Sync locales from translations repository"
+          git push https://<PAT>@github.com/IamLation/lation_247robbery.git main
+        env:
+          PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
