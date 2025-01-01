@@ -7,6 +7,7 @@ on:
     paths:
       - 'lation_247robbery/**'
       - 'lation_mining/**'
+      - 'lation_weed/**'
   workflow_dispatch:
 
 jobs:
@@ -47,3 +48,22 @@ jobs:
           git add .
           git commit -m "chore(locales): automated sync from translations repo"
           git push https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/IamLation/lation_mining.git main
+
+  sync-weed:
+    if: contains(github.event.head_commit.message, 'lation_weed') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout translations repository
+        uses: actions/checkout@v3
+
+      - name: Clone target repository
+        run: |
+          git clone https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/IamLation/lation_weed.git target_repo
+          cp -r lation_weed/* target_repo/locales/
+          cd target_repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "chore(locales): automated sync from translations repo"
+          git push https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/IamLation/lation_weed.git main
