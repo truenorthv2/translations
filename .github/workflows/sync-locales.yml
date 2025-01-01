@@ -1,4 +1,4 @@
-name: Sync Locales to lation_247robbery
+name: Sync Locales to Repositories
 
 on:
   push:
@@ -6,10 +6,12 @@ on:
       - main
     paths:
       - 'lation_247robbery/**'
+      - 'lation_mining/**'
   workflow_dispatch:
 
 jobs:
-  sync-locales:
+  sync-247robbery:
+    if: contains(github.event.head_commit.message, 'lation_247robbery') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
@@ -26,3 +28,22 @@ jobs:
           git add .
           git commit -m "chore(locales): automated sync from translations repo"
           git push https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/IamLation/lation_247robbery.git main
+
+  sync-mining:
+    if: contains(github.event.head_commit.message, 'lation_mining') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout translations repository
+        uses: actions/checkout@v3
+
+      - name: Clone target repository
+        run: |
+          git clone https://github.com/IamLation/lation_mining.git target_repo
+          cp -r lation_mining/* target_repo/locales/
+          cd target_repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "chore(locales): automated sync from translations repo"
+          git push https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/IamLation/lation_mining.git main
