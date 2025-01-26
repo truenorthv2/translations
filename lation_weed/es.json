@@ -22,7 +22,7 @@
         "one-removed": "Planta eliminada del mapa.",
         "copied-coords": "Copiado correctamente al portapapeles",
         "set-gps": "Tu GPS ha sido actualizado",
-        "cant-carry": "no puedes cargar tanto",
+        "cant-carry": "No puedes cargar tanto",
         "not-authorized": "No estás autorizado a entrar.",
         "not-experienced": "No tienes suficiente experiencia para hacer esto."
     },
@@ -39,13 +39,13 @@
     "textui": {
         "weed-placement": "**Controles** \n **W**: avanzar \n **S**: retroceder \n **A**: moverse hacia la izquierda \n **D**: moverse hacia la derecha \n **X**: Cancelar \n **Espacio**: Confirmar",
         "table-placement": "**Controles** \n **Q**: Girar a la izquierda \n **E**: Girar a la derecha \n **W**: Avanzar \n **S**: Retroceder \n **A**: Mover a la izquierda \n **D**: Mover a la derecha \n **X**: Cancelar \n **Espacio**: Confirmar",
-        "open-shop": "**fuma en el agua** \n E - abrir tienda",
+        "open-shop": "**Smoke on the water** \n E - Abrir tienda",
         "search-plant": "**Planta de hierba** \n E - Buscar",
         "check-status": "**Planta de hierba** \n E - Verificar estado",
         "enter-lab": "**Laboratorio de hierba** \n E - Entrar",
         "exit-lab": "**Laboratorio de hierba** \n E - Salir",
         "roll-weed": "**Mesa de liar**  \n E - Empezar a enrollar",
-        "bag-weed": "**Mesa de empacar**  \n E - empezar a embolsar",
+        "bag-weed": "**Mesa de empacar**  \n E - Empezar a embolsar",
         "use-table": "**Mesa de hierba**  \n E - Usar"
     },
     "plant-menu": {
@@ -79,7 +79,7 @@
         "grown-desc": "Has cultivado un total de %s plantas",
         "produced-title": "Hierba cosechada",
         "produced-desc": "Has cosechado un total de %s hierba",
-        "rolled-title": "Porros enrrolados",
+        "rolled-title": "Porros enrollados",
         "rolled-desc": "Has enrrolado un total de %s porros",
         "bagged-title": "Hierba embolsada",
         "bagged-desc": "Has embolsado un total de %s hierba"
@@ -124,7 +124,7 @@
         "plant-details-add-blip-title": "Añadir al mapa",
         "plant-details-add-blip-desc": "Crea un punto para esta planta",
         "plant-details-remove-blip-title": "Eliminar del mapa",
-        "plant-details-remove-blip-desc": "Eliminar el problema de esta planta.",
+        "plant-details-remove-blip-desc": "Eliminar esta planta del mapa.",
         "plant-details-delete-title": "Eliminar planta",
         "plant-details-delete-desc": "Eliminar irreversiblemente esta planta",
         "plant-details-copy-coords": "Haga clic para copiar las coordenadas al portapapeles",
@@ -174,10 +174,10 @@
         "plant-watered-title": "Planta regada",
         "plant-watered-message": "%s (identifier: %s) ha regado una planta (id: %s)",
         "plant-harvested-title": "Planta cosechada",
-        "plant-harvested-message": "%s (identifier: %s) ha cosechado una planta y recibido x%s %s and x%s %s (id: %s)",
-        "plant-deleted-title": "Plant Deleted",
+        "plant-harvested-message": "%s (identifier: %s) ha cosechado una planta y recibido x%s %s y x%s %s (id: %s)",
+        "plant-deleted-title": "Planta eliminada",
         "plant-deleted-message": "%s (identifier: %s) ha eliminado una planta (id: %s)",
-        "weed-rolled-title": "Joint(s) Rolled",
+        "weed-rolled-title": "Porro(s) enrollado(s)",
         "weed-rolled-message": "%s (identifier: %s) ha enrrolado x%s %s",
         "weed-bagged-title": "Weed Bagged",
         "weed-bagged-message": "%s (identifier: %s) ha embolsado x%s %s"
