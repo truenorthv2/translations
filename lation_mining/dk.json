@@ -7,7 +7,7 @@
         "nighttime": "Jeg tror ikke jeg har tilladelse til at hakke om natten", 
         "no-money": "Du har ikke nok penge",
         "no-item": "Du har ikke nok af denne ting",
-        "cant-carry": "Du kan ikke løfte så meget",
+        "cant-carry": "Du kan ikke bære så meget",
         "max-ingots": "Du kan kun smelte et maksimalt antal af  %s barre ad gangen"
     },
     "target": {
