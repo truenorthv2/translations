@@ -55,12 +55,12 @@
         "item-desc": "Kauf %s für $%s"
     },
     "pawn-menu": {
-        "main-title": "Die Minen: Pawn",
+        "main-title": "Die Minen: Pfand",
         "item-title": "Verkaufen %s",
         "item-desc": "Verkaufe %s für $%s"
     },
     "leaderboard-menu": {
-        "main-title": "Die Minen: Leaderboards",
+        "main-title": "Die Minen: Bestenlisten",
         "player-desc": "Stufe: %s | XP: %s | Insgesamt abgebaut: %s"
     },
     "smelt-menu": {
