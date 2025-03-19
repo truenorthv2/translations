@@ -1,80 +1,80 @@
 {
     "notify": {
-        "missing-item": "Mir fehlt etwas, um das zu tun", 
-        "not-experienced": "Ich glaube nicht, dass ich dafür erfahren genug bin", 
-        "missing-pickaxe": "Ich brauche eine Spitzhacke, die ich wirklich benutzen kann", 
-        "pickaxe-no-durability": "Meine Spitzhacke ist in einem schrecklichen Zustand...", 
-        "nighttime": "Ich glaube nicht, dass ich nachts graben darf", 
-        "no-money": "Du hast nicht genug Geld", 
-        "no-item": "Du hast nicht genug von diesem Gegenstand", 
-        "cant-carry": "Du kannst nicht so viel tragen", 
-        "max-ingots": "Du kannst maximal %s Barren gleichzeitig schmelzen."
+        "missing-item": "Mir fehlt etwas, um dies zu tun",
+        "not-experienced": "Ich glaube, ich bin nicht erfahren genug, um dies zu tun",
+        "missing-pickaxe": "Ich brauche eine Spitzhacke, die ich auch benutzen kann",
+        "pickaxe-no-durability": "Meine Spitzhacke ist in einem schrecklichen Zustand...",
+        "nighttime": "Ich glaube nicht, dass ich nachts arbeiten darf",
+        "no-money": "Du hast nicht genug Geld",
+        "no-item": "Du hast nicht genug von diesem Gegenstand",
+        "cant-carry": "Du kannst nicht so viel tragen",
+        "max-ingots": "Du kannst nur maximal %s Barren auf einmal schmelzen"
     },
     "target": {
         "mine-ore": "Mine",
         "mine-shop": "Reden",
-        "smelt-ore": "Schmelzen"
+        "smelt-ore": "Schmelze"
     },
     "textui": {
-        "smelt": "Schmelzen (%s/%s) - %s%%"
+        "smelt": "Schmelze (%s/%s) - %s%%"
     },
     "inputs": {
         "label": "Menge",
         "desc": "Wie viele?"
     },
     "player-data": {
-        "level-title": "Bergbau | Level %s/%s",
-        "level-desc": "Du hast aktuell %sXP",
-        "stats-title": "Lebensstatistiken",
-        "stats-desc": "Deine Lebensstatistiken zum Bergbau ansehen",
-        "meta-next-level": "Nächstes Level",
-        "meta-remainder": "Rest",
-        "meta-maxed-level": "Maximales Level erreicht"
+        "level-title": "Mine | Level %s/%s",
+        "level-desc": "Du hast derzeit %sXP",
+        "stats-title": "Statistiken",
+        "stats-desc": "Sieh dir deine Statistiken an",
+        "meta-next-level": "Nächste Stufe",
+        "meta-remainder": "Restbetrag",
+        "meta-maxed-level": "Maximale Stufe erreicht"
     },
     "stats-menu": {
-        "main-title": "Lebensstatistiken",
-        "mined-title": "Abgebaut",
+        "main-title": "Statistiken",
+        "mined-title": "Mine",
         "mined-desc": "Du hast insgesamt %s Erze abgebaut",
-        "smelted-title": "Geschmolzen",
+        "smelted-title": "Schmelze",
         "smelted-desc": "Du hast insgesamt %s Barren geschmolzen",
         "earned-title": "Verdient",
         "earned-desc": "Du hast insgesamt $%s verdient"
     },
     "mine-menu": {
-        "main-title": "Die Mine",
+        "main-title": "Die Minen",
         "leaderboards-title": "Die Bestenlisten",
-        "leaderboards-desc": "Sieh dir die 10 besten Bergleute an",
+        "leaderboards-desc": "Top 10 Bestenliste",
         "shop-title": "Der Shop",
-        "shop-desc": "Kaufe hier deine Bergbauausrüstung",
+        "shop-desc": "Kaufe deine Bergbauausrüstung hier",
         "pawn-title": "Pfandhaus",
-        "pawn-desc": "Verkaufe deine Erze & mehr gewinnbringend"
+        "pawn-desc": "Verkaufe deine Erze & mehr mit Gewinn"
     },
     "shop-menu": {
-        "main-title": "Die Mine: Shop",
+        "main-title": "Die Minen: Shop",
         "pickaxe-title": "%s | Level %s",
-        "item-desc": "Kaufe %s für $%s"
+        "item-desc": "Kauf %s für $%s"
     },
     "pawn-menu": {
-        "main-title": "Die Mine: Verpfänden",
-        "item-title": "Verkaufe %s",
+        "main-title": "Die Minen: Pawn",
+        "item-title": "Verkaufen %s",
         "item-desc": "Verkaufe %s für $%s"
     },
     "leaderboard-menu": {
-        "main-title": "Die Mine: Bestenlisten",
-        "player-desc": "Level: %s | XP: %s | Gesamt abgebaut: %s"
+        "main-title": "Die Minen: Leaderboards",
+        "player-desc": "Stufe: %s | XP: %s | Insgesamt abgebaut: %s"
     },
     "smelt-menu": {
         "main-title": "Schmelzen",
-        "ingot-desc": "Benötigt %s"
+        "ingot-desc": "Erfordert %s"
     },
     "logs": {
-        "mined-title": "Ore Mined",
-        "mined-message": "%s (identifier: %s) has mined a rock for %s",
-        "smelted-title": "Ingot Smelted",
-        "smelted-message": "%s (identifier: %s) has smelted x%d %s",
-        "purchased-title": "Shop Purchase",
-        "purchased-message": "%s (identifier: %s) has purchased x%d %s",
-        "pawned-title": "Pawn Shop Sale",
-        "pawned-message": "%s (identifier: %s) has sold x%d %s"
+        "mined-title": "Gefördertes Erz",
+        "mined-message": "%s (identifier: %s) hat einen Stein für %s abgebaut",
+        "smelted-title": "Barren geschmolzen",
+        "smelted-message": "%s (identifier: %s) hat x%d %s geschmolzen",
+        "purchased-title": "Einkaufen",
+        "purchased-message": "%s (identifier: %s) hat x%d %s gekauft",
+        "pawned-title": "Pfandhausverkauf",
+        "pawned-message": "%s (identifier: %s) hat x%d %s verkauft"
     }
 }
