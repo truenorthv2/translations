@@ -1,272 +1,272 @@
 {
     "notify": {
-    "cant-carry": "Je kunt dat niet dragen",
-    "already-searched": "Er lijkt hier niets te zijn",
-    "limit-reached": "Misschien moet je even pauze nemen",
-    "not-experienced": "Je hebt hier nog niet genoeg ervaring voor",
-    "max-tables": "Ik denk dat ik al genoeg tafels heb",
-    "max-plants": "Ik denk dat ik al genoeg planten heb",
-    "no-police": "Er zijn niet genoeg agenten in de stad",
-    "no-pot": "Ik moet dit ergens in zetten, bijvoorbeeld een pot",
-    "no-water": "Je hebt niet genoeg water",
-    "no-fertilizer": "Je hebt niet genoeg meststof",
-    "no-shears": "Een schaar zou handig zijn",
-    "cant-place": "Je kunt dat hier niet plaatsen",
-    "missing-item": "Ik heb %s nodig om dit te doen",
-    "missing-metadata": "Je hebt er niet genoeg van",
-    "no-money": "Je hebt niet genoeg geld",
-    "lab-limit": "Je bezit al het maximum aantal labs",
-    "door-locked": "De deur is op slot",
-    "door-lock-changed": "Je hebt de deur %s",
-    "create-stash-passcode": "Je hebt een nieuwe toegangscode aangemaakt",
-    "change-stash-passcode": "Je hebt de toegangscode gewijzigd",
-    "remove-stash-passcode": "Je hebt de toegangscode verwijderd",
-    "transfer-self": "Je bezit dit lab al",
-    "transfer-invalid": "Doelwit is ongeldig of niet beschikbaar",
-    "transfer-level": "Doelwit moet minstens level %s zijn",
-    "transfer-max": "Doelwit kan niet meer labs bezitten",
-    "transfer-success-owner": "De overdracht is voltooid",
-    "transfer-success-target": "Je hebt nu het eigendom van een lab",
-    "auth-user-invalid": "Doelwit is ongeldig of niet beschikbaar",
-    "auth-user-self": "Je kunt jezelf niet toevoegen",
-    "auth-user-exists": "Deze persoon is al een geautoriseerde gebruiker",
-    "auth-user-added": "Je hebt %s succesvol toegevoegd",
-    "auth-user-edited": "Je hebt de rechten van %s succesvol aangepast",
-    "auth-user-removed": "Je hebt %s succesvol verwijderd",
-    "no-permission": "Je hebt geen toestemming om dit te doen",
-    "invalid-stash-passcode": "De ingevoerde toegangscode is onjuist",
-    "raid-stash-failed": "Het is je niet gelukt om de stash open te breken",
-    "raid-entry-failed": "Het is je niet gelukt om het lab binnen te dringen",
-    "confiscate-success": "Dispatch is op de hoogte gebracht, inbeslagname is gestart"
-},
-"target": {
-    "search-coca": "Doorzoek",
-    "use-table": "Gebruik",
-    "use-station": "Gebruik",
-    "check-status": "Controleer status",
-    "take-cement": "Pak cement",
-    "open-shop": "Praat",
-    "enter-lab": "Betreed",
-    "exit-lab": "Verlaat",
-    "open-stash": "Open voorraad",
-    "manage-lab": "Beheer lab",
-    "confiscate-equipment": "Neem apparatuur in beslag"
-},
-"textui": {
-    "plant-controls": "**Besturing**  \n **W**: Naar voren  \n **S**: Naar achteren  \n **A**: Naar links  \n **D**: Naar rechts  \n **X**: Annuleren  \n **Spatie**: Bevestigen",
-    "table-controls": "**Besturing**  \n **Q**: Links draaien  \n **E**: Rechts draaien  \n **W**: Naar voren  \n **S**: Naar achteren  \n **A**: Naar links  \n **D**: Naar rechts  \n **X**: Annuleren  \n **Spatie**: Bevestigen",
-    "camera-controls": "**Besturing**  \n **W**: Omhoog draaien  \n **A**: Links draaien  \n **S**: Omlaag draaien  \n **D**: Rechts draaien  \n **Q**: Uitzoomen  \n **E**: Inzoomen  \n **Backspace**: Afsluiten"
-},
-"alerts": {
-    "pickup": {
-        "header": "**Bevestig Actie**",
-        "content": "Weet je zeker dat je de tafel wilt inpakken?"
+        "cant-carry": "Je kunt dat niet dragen",
+        "already-searched": "Er lijkt hier niets te zijn",
+        "limit-reached": "Misschien moet je even pauze nemen",
+        "not-experienced": "Je hebt hier nog niet genoeg ervaring voor",
+        "max-tables": "Ik denk dat ik al genoeg tafels heb",
+        "max-plants": "Ik denk dat ik al genoeg planten heb",
+        "no-police": "Er zijn niet genoeg agenten in de stad",
+        "no-pot": "Ik moet dit ergens in zetten, bijvoorbeeld een pot",
+        "no-water": "Je hebt niet genoeg water",
+        "no-fertilizer": "Je hebt niet genoeg meststof",
+        "no-shears": "Een schaar zou handig zijn",
+        "cant-place": "Je kunt dat hier niet plaatsen",
+        "missing-item": "Ik heb %s nodig om dit te doen",
+        "missing-metadata": "Je hebt er niet genoeg van",
+        "no-money": "Je hebt niet genoeg geld",
+        "lab-limit": "Je bezit al het maximum aantal labs",
+        "door-locked": "De deur is op slot",
+        "door-lock-changed": "Je hebt de deur %s",
+        "create-stash-passcode": "Je hebt een nieuwe toegangscode aangemaakt",
+        "change-stash-passcode": "Je hebt de toegangscode gewijzigd",
+        "remove-stash-passcode": "Je hebt de toegangscode verwijderd",
+        "transfer-self": "Je bezit dit lab al",
+        "transfer-invalid": "Doelwit is ongeldig of niet beschikbaar",
+        "transfer-level": "Doelwit moet minstens level %s zijn",
+        "transfer-max": "Doelwit kan niet meer labs bezitten",
+        "transfer-success-owner": "De overdracht is voltooid",
+        "transfer-success-target": "Je hebt nu het eigendom van een lab",
+        "auth-user-invalid": "Doelwit is ongeldig of niet beschikbaar",
+        "auth-user-self": "Je kunt jezelf niet toevoegen",
+        "auth-user-exists": "Deze persoon is al een geautoriseerde gebruiker",
+        "auth-user-added": "Je hebt %s succesvol toegevoegd",
+        "auth-user-edited": "Je hebt de rechten van %s succesvol aangepast",
+        "auth-user-removed": "Je hebt %s succesvol verwijderd",
+        "no-permission": "Je hebt geen toestemming om dit te doen",
+        "invalid-stash-passcode": "De ingevoerde toegangscode is onjuist",
+        "raid-stash-failed": "Het is je niet gelukt om de stash open te breken",
+        "raid-entry-failed": "Het is je niet gelukt om het lab binnen te dringen",
+        "confiscate-success": "Dispatch is op de hoogte gebracht, inbeslagname is gestart"
     },
-    "destroy": {
-        "header": "**Bevestig Actie**",
-        "content": "Weet je zeker dat je deze plant wilt vernietigen?"
+    "target": {
+        "search-coca": "Doorzoek",
+        "use-table": "Gebruik",
+        "use-station": "Gebruik",
+        "check-status": "Controleer status",
+        "take-cement": "Pak cement",
+        "open-shop": "Praat",
+        "enter-lab": "Betreed",
+        "exit-lab": "Verlaat",
+        "open-stash": "Open voorraad",
+        "manage-lab": "Beheer lab",
+        "confiscate-equipment": "Neem apparatuur in beslag"
     },
-    "raid-stash": {
-        "header": "**Inbreken**",
-        "content": "Weet je zeker dat je deze stash wilt openbreken?"
+    "textui": {
+        "plant-controls": "**Besturing**  \n **W**: Naar voren  \n **S**: Naar achteren  \n **A**: Naar links  \n **D**: Naar rechts  \n **X**: Annuleren  \n **Spatie**: Bevestigen",
+        "table-controls": "**Besturing**  \n **Q**: Links draaien  \n **E**: Rechts draaien  \n **W**: Naar voren  \n **S**: Naar achteren  \n **A**: Naar links  \n **D**: Naar rechts  \n **X**: Annuleren  \n **Spatie**: Bevestigen",
+        "camera-controls": "**Besturing**  \n **W**: Omhoog draaien  \n **A**: Links draaien  \n **S**: Omlaag draaien  \n **D**: Rechts draaien  \n **Q**: Uitzoomen  \n **E**: Inzoomen  \n **Backspace**: Afsluiten"
     },
-    "raid-entry": {
-        "header": "**Inbreken**",
-        "content": "Weet je zeker dat je dit lab wilt openbreken?"
-    },
-    "remove-authorized-user": {
-        "header": "Verwijder Gebruiker",
-        "content": "Weet je zeker dat je %s wilt verwijderen uit de lijst met geautoriseerde gebruikers?"
-    }
-},
-"inputs": {
-    "shops": {
-        "label": "Aantal",
-        "desc": "Hoeveel wil je kopen?"
-    },
-    "gas": {
-        "label": "Benzine",
-        "desc": "Hoeveel benzine wil je toevoegen?"
-    },
-    "cement": {
-        "label": "Cement",
-        "desc": "Hoeveel cement wil je toevoegen?"
-    },
-    "brick": {
-        "label": "Selecteer Type",
-        "desc": "Welk type blok wil je selecteren?",
-        "options": {
-            "cocaine": "Cocaïne",
-            "crack": "Crack"
+    "alerts": {
+        "pickup": {
+            "header": "**Bevestig Actie**",
+            "content": "Weet je zeker dat je de tafel wilt inpakken?"
+        },
+        "destroy": {
+            "header": "**Bevestig Actie**",
+            "content": "Weet je zeker dat je deze plant wilt vernietigen?"
+        },
+        "raid-stash": {
+            "header": "**Inbreken**",
+            "content": "Weet je zeker dat je deze stash wilt openbreken?"
+        },
+        "raid-entry": {
+            "header": "**Inbreken**",
+            "content": "Weet je zeker dat je dit lab wilt openbreken?"
+        },
+        "remove-authorized-user": {
+            "header": "Verwijder Gebruiker",
+            "content": "Weet je zeker dat je %s wilt verwijderen uit de lijst met geautoriseerde gebruikers?"
         }
     },
-    "confiscate": {
-        "title": "Politieacties",
-        "manufacturing": "Productieapparatuur",
-        "security": "Beveiligingsapparatuur"
+    "inputs": {
+        "shops": {
+            "label": "Aantal",
+            "desc": "Hoeveel wil je kopen?"
+        },
+        "gas": {
+            "label": "Benzine",
+            "desc": "Hoeveel benzine wil je toevoegen?"
+        },
+        "cement": {
+            "label": "Cement",
+            "desc": "Hoeveel cement wil je toevoegen?"
+        },
+        "brick": {
+            "label": "Selecteer Type",
+            "desc": "Welk type blok wil je selecteren?",
+            "options": {
+                "cocaine": "Cocaïne",
+                "crack": "Crack"
+            }
+        },
+        "confiscate": {
+            "title": "Politieacties",
+            "manufacturing": "Productieapparatuur",
+            "security": "Beveiligingsapparatuur"
+        },
+        "stash": {
+            "title": "Voorraad",
+            "label": "Voer toegangscode in",
+            "desc": "Een toegangscode is vereist om deze voorraad te openen"
+        },
+        "passcode": {
+            "title": "Toegangscode Aanmaken",
+            "label": "Toegangscode",
+            "desc": "Voer een nieuwe toegangscode in"
+        },
+        "change-passcode": {
+            "title": "Toegangscode Wijzigen",
+            "label": "Toegangscode",
+            "desc": "Voer een nieuwe toegangscode in"
+        },
+        "transfer-ownership": {
+            "title": "Eigendom Overdragen",
+            "label": "Speler-ID",
+            "desc": "Voer het speler-ID in naar wie je het eigendom wilt overdragen"
+        },
+        "sell-lab": {
+            "title": "Lab Verkopen",
+            "label": "Bevestig Verkoop",
+            "desc": "Deze actie is onomkeerbaar, typ '%s' om door te gaan"
+        },
+        "add-authorized-user": {
+            "title": "Bevoegde Gebruiker Toevoegen",
+            "label": "Speler-ID",
+            "desc": "Voer het speler-ID in van degene die je wilt toevoegen"
+        },
+        "manage-authorized-user": {
+            "title": "Gebruiker Beheren",
+            "label": "Selecteer Actie",
+            "desc": "Wat wil je doen?",
+            "edit": "Machtigingen Bewerken",
+            "remove": "Gebruiker Verwijderen"
+        },
+        "edit-authorized-user": {
+            "title": "Bewerk %s",
+            "access-lab": "Toegang tot lab (altijd toegestaan)",
+            "manage-door": "Deur vergrendelen/ontgrendelen",
+            "view-camera": "Beveiligingscamera bekijken",
+            "manage-users": "Bevoegde gebruikers toevoegen of verwijderen"
+        }
     },
-    "stash": {
-        "title": "Voorraad",
-        "label": "Voer toegangscode in",
-        "desc": "Een toegangscode is vereist om deze voorraad te openen"
+    "player-data": {
+        "level-title": "Cocaïne | Level %s/%s",
+        "level-desc": "Je hebt momenteel %sXP",
+        "stats-title": "Levenslange Statistieken",
+        "stats-desc": "Bekijk je levenslange cocaïnestatistieken",
+        "meta-next-level": "Volgend Level",
+        "meta-remainder": "Resterend",
+        "meta-maxed-level": "Maximaal Level Bereikt"
     },
-    "passcode": {
-        "title": "Toegangscode Aanmaken",
-        "label": "Toegangscode",
-        "desc": "Voer een nieuwe toegangscode in"
+    "stats-menu": {
+        "main-title": "Levenslange Statistieken",
+        "leaves-title": "Bladeren",
+        "leaves-desc": "Je hebt in totaal %s cocabladeren geoogst",
+        "grown-title": "Planten",
+        "grown-desc": "Je hebt in totaal %s cocaplanten gekweekt",
+        "cement-title": "Cement",
+        "cement-desc": "Je hebt in totaal %s zakken cement verzameld",
+        "bricks-title": "Blokken",
+        "bricks-desc": "Je hebt in totaal %s blokken geproduceerd"
     },
-    "change-passcode": {
-        "title": "Toegangscode Wijzigen",
-        "label": "Toegangscode",
-        "desc": "Voer een nieuwe toegangscode in"
+    "table-menu": {
+        "main-title": "Cocaïne",
+        "production-title": "Productie",
+        "production-desc": "Start met het produceren van een partij coke",
+        "in-progress-title": "Bezig",
+        "in-progress-desc": "Resterende tijd tot voltooiing - %s minuut/minuten",
+        "take-product-title": "Neem Product",
+        "take-product-desc": "Neem het product van de tafel",
+        "process-leaves-title": "Bladeren Verwerken",
+        "process-leaves-desc": "Begin met het verwerken van cocabladeren",
+        "add-gas-title": "Voeg Benzine Toe",
+        "add-gas-desc": "Voeg benzine toe aan de verwerkte bladeren",
+        "add-cement-title": "Voeg Cement Toe",
+        "add-cement-desc": "Voeg cement toe aan de coca-basis",
+        "start-heat-title": "Verhit & Droog",
+        "start-heat-desc": "Verhit en droog de coca-basis",
+        "cook-coke-title": "Kook Coke",
+        "cook-coke-desc": "Kook de coke eventueel verder om crack te maken",
+        "cut-brick-title": "Snijd Blok",
+        "cut-brick-desc": "Snijd het blok eventueel met bakpoeder voor meer opbrengst",
+        "package-title": "Verpak",
+        "package-desc": "Verdeel een blok in kleinere zakjes",
+        "packup-title": "Inpakken",
+        "packup-desc": "Pak alles in en verplaats deze tafel"
     },
-    "transfer-ownership": {
-        "title": "Eigendom Overdragen",
-        "label": "Speler-ID",
-        "desc": "Voer het speler-ID in naar wie je het eigendom wilt overdragen"
+    "plant-menu": {
+        "main-title": "Cocaplant",
+        "water-title": "Water",
+        "water-desc": "Huidig waterniveau - %.1f%% (Klik hier om water te geven)",
+        "fertilizer-title": "Mest",
+        "fertilizer-desc": "Huidig hongerniveau - %.1f%% (Klik hier om te bemesten)",
+        "growth-title": "Groei",
+        "growth-desc": "Huidig groeipercentage - %.1f%%",
+        "yield-title": "Opbrengst",
+        "yield-desc": "Maximale opbrengstpotentie - %.1f%%",
+        "destroy-title": "Vernietig",
+        "destroy-desc": "Vernietig deze plant onomkeerbaar",
+        "harvest-title": "Oogsten",
+        "harvest-desc-not-ready": "Oogsten is pas mogelijk bij 100% groei",
+        "harvest-desc-ready": "Je kunt deze plant nu oogsten"
     },
-    "sell-lab": {
-        "title": "Lab Verkopen",
-        "label": "Bevestig Verkoop",
-        "desc": "Deze actie is onomkeerbaar, typ '%s' om door te gaan"
+    "lab-shop-menu": {
+        "main-title": "Lab Beschikbaarheid",
+        "confirm-title": "Bevestig Aankoop",
+        "lab-title": "Koop voor €%s",
+        "confirm-purchase-title": "Ja",
+        "confirm-purchase-desc": "Bevestig de aankoop van dit magazijn voor €%s",
+        "cancel-purchase-title": "Nee",
+        "cancel-purchase-desc": "Annuleer de aankoop en keer terug naar de selectie",
+        "set-waypoint-title": "Zet Waypoint",
+        "set-waypoint-desc": "Zet een waypoint om te zien waar dit magazijn is"
     },
-    "add-authorized-user": {
-        "title": "Bevoegde Gebruiker Toevoegen",
-        "label": "Speler-ID",
-        "desc": "Voer het speler-ID in van degene die je wilt toevoegen"
+    "manage-lab-menu": {
+        "main-title": "Beheer Lab",
+        "manage-security-title": "Beveiliging",
+        "manage-security-desc": "Beheer de beveiliging van je lab",
+        "upgrade-equipment-title": "Apparatuur Upgraden",
+        "upgrade-equipment-desc": "Upgrade de apparatuur van je lab",
+        "install-security-title": "Installeer Beveiliging",
+        "install-security-desc": "Voeg beveiligingsapparatuur toe aan je lab",
+        "upgrade-pending-title": "Upgrade In Behandeling",
+        "upgrade-pending-desc": "Geschatte resterende tijd tot voltooiing - %sm %ss",
+        "ownership-title": "Eigendom",
+        "ownership-desc": "Beheer het eigendom van je lab"
     },
-    "manage-authorized-user": {
-        "title": "Gebruiker Beheren",
-        "label": "Selecteer Actie",
-        "desc": "Wat wil je doen?",
-        "edit": "Machtigingen Bewerken",
-        "remove": "Gebruiker Verwijderen"
+    "manage-security-menu": {
+        "main-title": "Beheer Beveiliging",
+        "doorlock-title": "Deurstatus",
+        "doorlock-desc": "De deur is momenteel %s",
+        "create-passcode-title": "Toegangscode Aanmaken",
+        "create-passcode-desc": "Voeg een unieke toegangscode toe voor toegang tot voorraad",
+        "change-passcode-title": "Toegangscode Wijzigen",
+        "change-passcode-desc": "Wijzig de toegangscode voor voorraad",
+        "remove-passcode-title": "Toegangscode Verwijderen",
+        "remove-passcode-desc": "Verwijder de toegangscode voor voorraad",
+        "authorized-users-title": "Bevoegde Gebruikers",
+        "authorized-users-desc": "Beheer wie toegang heeft tot je lab",
+        "security-camera-title": "Bekijk Camera",
+        "security-camera-desc": "Bekijk de beveiligingscamera"
     },
-    "edit-authorized-user": {
-        "title": "Bewerk %s",
-        "access-lab": "Toegang tot lab (altijd toegestaan)",
-        "manage-door": "Deur vergrendelen/ontgrendelen",
-        "view-camera": "Beveiligingscamera bekijken",
-        "manage-users": "Bevoegde gebruikers toevoegen of verwijderen"
-    }
-},
-"player-data": {
-    "level-title": "Cocaïne | Level %s/%s",
-    "level-desc": "Je hebt momenteel %sXP",
-    "stats-title": "Levenslange Statistieken",
-    "stats-desc": "Bekijk je levenslange cocaïnestatistieken",
-    "meta-next-level": "Volgend Level",
-    "meta-remainder": "Resterend",
-    "meta-maxed-level": "Maximaal Level Bereikt"
-},
-"stats-menu": {
-    "main-title": "Levenslange Statistieken",
-    "leaves-title": "Bladeren",
-    "leaves-desc": "Je hebt in totaal %s cocabladeren geoogst",
-    "grown-title": "Planten",
-    "grown-desc": "Je hebt in totaal %s cocaplanten gekweekt",
-    "cement-title": "Cement",
-    "cement-desc": "Je hebt in totaal %s zakken cement verzameld",
-    "bricks-title": "Blokken",
-    "bricks-desc": "Je hebt in totaal %s blokken geproduceerd"
-},
-"table-menu": {
-    "main-title": "Cocaïne",
-    "production-title": "Productie",
-    "production-desc": "Start met het produceren van een partij coke",
-    "in-progress-title": "Bezig",
-    "in-progress-desc": "Resterende tijd tot voltooiing - %s minuut/minuten",
-    "take-product-title": "Neem Product",
-    "take-product-desc": "Neem het product van de tafel",
-    "process-leaves-title": "Bladeren Verwerken",
-    "process-leaves-desc": "Begin met het verwerken van cocabladeren",
-    "add-gas-title": "Voeg Benzine Toe",
-    "add-gas-desc": "Voeg benzine toe aan de verwerkte bladeren",
-    "add-cement-title": "Voeg Cement Toe",
-    "add-cement-desc": "Voeg cement toe aan de coca-basis",
-    "start-heat-title": "Verhit & Droog",
-    "start-heat-desc": "Verhit en droog de coca-basis",
-    "cook-coke-title": "Kook Coke",
-    "cook-coke-desc": "Kook de coke eventueel verder om crack te maken",
-    "cut-brick-title": "Snijd Blok",
-    "cut-brick-desc": "Snijd het blok eventueel met bakpoeder voor meer opbrengst",
-    "package-title": "Verpak",
-    "package-desc": "Verdeel een blok in kleinere zakjes",
-    "packup-title": "Inpakken",
-    "packup-desc": "Pak alles in en verplaats deze tafel"
-},
-"plant-menu": {
-    "main-title": "Cocaplant",
-    "water-title": "Water",
-    "water-desc": "Huidig waterniveau - %.1f%% (Klik hier om water te geven)",
-    "fertilizer-title": "Mest",
-    "fertilizer-desc": "Huidig hongerniveau - %.1f%% (Klik hier om te bemesten)",
-    "growth-title": "Groei",
-    "growth-desc": "Huidig groeipercentage - %.1f%%",
-    "yield-title": "Opbrengst",
-    "yield-desc": "Maximale opbrengstpotentie - %.1f%%",
-    "destroy-title": "Vernietig",
-    "destroy-desc": "Vernietig deze plant onomkeerbaar",
-    "harvest-title": "Oogsten",
-    "harvest-desc-not-ready": "Oogsten is pas mogelijk bij 100% groei",
-    "harvest-desc-ready": "Je kunt deze plant nu oogsten"
-},
-"lab-shop-menu": {
-    "main-title": "Lab Beschikbaarheid",
-    "confirm-title": "Bevestig Aankoop",
-    "lab-title": "Koop voor €%s",
-    "confirm-purchase-title": "Ja",
-    "confirm-purchase-desc": "Bevestig de aankoop van dit magazijn voor €%s",
-    "cancel-purchase-title": "Nee",
-    "cancel-purchase-desc": "Annuleer de aankoop en keer terug naar de selectie",
-    "set-waypoint-title": "Zet Waypoint",
-    "set-waypoint-desc": "Zet een waypoint om te zien waar dit magazijn is"
-},
-"manage-lab-menu": {
-    "main-title": "Beheer Lab",
-    "manage-security-title": "Beveiliging",
-    "manage-security-desc": "Beheer de beveiliging van je lab",
-    "upgrade-equipment-title": "Apparatuur Upgraden",
-    "upgrade-equipment-desc": "Upgrade de apparatuur van je lab",
-    "install-security-title": "Installeer Beveiliging",
-    "install-security-desc": "Voeg beveiligingsapparatuur toe aan je lab",
-    "upgrade-pending-title": "Upgrade In Behandeling",
-    "upgrade-pending-desc": "Geschatte resterende tijd tot voltooiing - %sm %ss",
-    "ownership-title": "Eigendom",
-    "ownership-desc": "Beheer het eigendom van je lab"
-},
-"manage-security-menu": {
-    "main-title": "Beheer Beveiliging",
-    "doorlock-title": "Deurstatus",
-    "doorlock-desc": "De deur is momenteel %s",
-    "create-passcode-title": "Toegangscode Aanmaken",
-    "create-passcode-desc": "Voeg een unieke toegangscode toe voor toegang tot voorraad",
-    "change-passcode-title": "Toegangscode Wijzigen",
-    "change-passcode-desc": "Wijzig de toegangscode voor voorraad",
-    "remove-passcode-title": "Toegangscode Verwijderen",
-    "remove-passcode-desc": "Verwijder de toegangscode voor voorraad",
-    "authorized-users-title": "Bevoegde Gebruikers",
-    "authorized-users-desc": "Beheer wie toegang heeft tot je lab",
-    "security-camera-title": "Bekijk Camera",
-    "security-camera-desc": "Bekijk de beveiligingscamera"
-},
-"manage-authorized-users-menu": {
-    "main-title": "Bevoegde Gebruikers",
-    "add-user-title": "Gebruiker Toevoegen",
-    "add-user-desc": "Voeg een speler toe aan de lijst met bevoegden",
-    "manage-user-desc": "Klik om de toegang van deze gebruiker te beheren"
-},
-"manage-ownership-menu": {
-    "main-title": "Beheer Eigendom",
-    "transfer-owner-title": "Overdragen",
-    "transfer-owner-desc": "Draag het eigendom van dit lab over",
-    "sell-lab-title": "Verkopen",
-    "sell-lab-desc": "Verkoop dit gebouw aan de staat"
-},
-"shop-menu": {
-    "title": "Rusty's Winkel",
-    "desc": "Koop %s voor €%s"
-},
+    "manage-authorized-users-menu": {
+        "main-title": "Bevoegde Gebruikers",
+        "add-user-title": "Gebruiker Toevoegen",
+        "add-user-desc": "Voeg een speler toe aan de lijst met bevoegden",
+        "manage-user-desc": "Klik om de toegang van deze gebruiker te beheren"
+    },
+    "manage-ownership-menu": {
+        "main-title": "Beheer Eigendom",
+        "transfer-owner-title": "Overdragen",
+        "transfer-owner-desc": "Draag het eigendom van dit lab over",
+        "sell-lab-title": "Verkopen",
+        "sell-lab-desc": "Verkoop dit gebouw aan de staat"
+    },
+    "shop-menu": {
+        "title": "Rusty's Winkel",
+        "desc": "Koop %s voor €%s"
+    },
     "dispatch": {
         "cement": {
             "title": "Diefstal Gemeld",
