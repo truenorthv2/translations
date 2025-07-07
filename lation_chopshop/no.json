@@ -1,0 +1,124 @@
+{
+    "notify": {
+        "cant-carry": "Du kan ikke bære så mye",
+        "cant-chop-here": "Du kan ikke gjøre dette her",
+        "owned-vehicle": "Du kan ikke demontere eide kjøretøy",
+        "not-started": "Du har ikke startet demonteringen enda",
+        "requested-vehicle": "Jeg vil gi deg beskjed når jeg et oppdrag tilgjengelig for deg.",
+        "start-chop": "Du kan nå starte demonteringen",
+        "missing-tool": "Du mangler verktøyet for å utføre dette",
+        "tool-broke": "Faen.. Jeg ødela verktøyet...",
+        "part-completed": "Hm.. Det er ikke noe å demontere her.",
+        "no-police": "Du kan ikke gjøre dette nå..",
+        "not-enough-parts": "Du har ikke nok deler for å utføre byttehandelen",
+        "not-enough-money": "Du har ikke nok penger",
+        "invalid-player": "Target er ikke tilgjengelig eller ugyldig.",
+        "already-in-group": "Du er allerede i en gruppe.",
+        "target-already-in-group": "Target er allerede i en gruppe.",
+        "target-owns-a-group": "Target eier allerede en gruppe.",
+        "owner-left-group": "Gruppen din ble opphevet",
+        "member-left-group": "Du forlot gruppen.",
+        "owner-added-member": "Du la til %s til gruppen",
+        "member-added": "%s la deg til i deres demonteringsgruppe",
+        "owner-removed-member": "Du kastet ut %s fra gruppen",
+        "member-removed": "%s kastet deg ut av sin demonteringsgruppe"
+    },
+    "target": {
+        "talk": "Snakk med Åge Nils",
+        "start-chop": "Begynn å demontere",
+        "remove-bonnet": "Demonter panser",
+        "remove-door": "Demonter dør",
+        "remove-wheel": "Demonter hjul",
+        "remove-boot": "Demonter bagasjeluke",
+        "complete-chop": "Del opp rammen"
+    },
+    "textui": {
+        "vehicle-finder": {
+            "label": "**Kjøretøyfinner**  \n Tildelt bilmodell: %s  \n Nære biler som matcher din tildelte modell: %s"
+        }
+    },
+    "inputs": {
+        "shops": {
+            "label": "Quantity",
+            "desc": "Hvor mange?"
+        },
+        "player": {
+            "label": "Person",
+            "desc": "Personens ID"
+        }
+    },
+    "alerts": {
+        "vehicle-chopped": {
+            "header": "Vil du fortsette å demontere biler?",
+            "content": "Bra jobbet! Du har fullført demonteringen av %s. Vil du fortsette å demontere biler?",
+            "labels": {
+                "confirm": "Fortsett",
+                "cancel": "Avslutt"
+            }
+        }
+    },
+    "player-data": {
+        "level-title": "Demontering | Level %s/%s",
+        "level-desc": "Akkurat nå har du %sXP",
+        "stats-title": "Statistikk",
+        "stats-desc": "Sjekk din demonterings statistikk",
+        "meta-next-level": "Neste level",
+        "meta-remainder": "Påminnelse",
+        "meta-maxed-level": "Du har nådd høyeste level"
+    },
+    "stats-menu": {
+        "main-title": "Statistikk",
+        "vehicles-title": "Biler",
+        "vehicles-desc": "Du har demontert totalt %s biler",
+        "parts-title": "Deler",
+        "parts-desc": "Du har mottatt %s deler"
+    },
+    "chop-menu": {
+        "main-title": "Bil demontering",
+        "leaderboards-title": "Ledende demontører",
+        "leaderboards-desc": "Sjekk topp 10 demontører",
+        "tool-shop-title": "Verktøybutikk",
+        "tool-shop-desc": "Kjøp demonterings verktøy",
+        "swap-shop-title": "Byttehandel",
+        "swap-shop-desc": "Bytt bildeler i noe annet",
+        "create-group-title": "Opprett gruppe",
+        "create-group-desc": "Demonter alene eller i gruppe. Start her!",
+        "manage-group-title": "Administrer gruppe",
+        "manage-group-desc": "Administrer din demonteringsgruppe",
+        "start-chop-title": "Etterspør jobb",
+        "start-chop-desc": "Få tildelt en bil, lokaliser den og start demonteringen."
+    },
+    "manage-group-menu": {
+        "main-title": "Administrer gruppe",
+        "add-member-title": "legg til gruppemedlem",
+        "add-member-desc": "Legg et medlem til i din demonteringsgruppe",
+        "remove-member-desc": "Kast ut medlem av gruppen",
+        "leave-group-title": "Forlat gruppe",
+        "leave-group-desc": "Forlat gruppen din"
+    },
+    "swap-menu": {
+        "main-title": "Byttehandelp",
+        "item-desc": "Bytt x%s bildeler mot x%s %s"
+    },
+    "tool-menu": {
+        "main-title": "Verktøybutikk",
+        "item-desc": "Kjøp %s for %sNOK"
+    },
+    "leaderboard-menu": {
+        "main-title": "Ledende",
+        "player-desc": "Level: %s | XP: %s | Antall demonteringer: %s"
+    },
+    "emails": {
+        "vehicle-assigned": "Hællæ - det er meg igjen se.. Jeg trenger’æ til å lokkalisere og demontere en %s for mæ så fort som du får’e te. Vær nå litteranne forsiktig æ kompis.. Lykke te!"
+    },
+    "logs": {
+        "part-chopped-title": "Del demontert",
+        "part-chopped-desc": "%s (identifier: %s) har demontert en del (bone: %s) fra en bil og fått x%s %s",
+        "item-purchased-title": "Gjenstand kjøpt",
+        "item-purchased-desc": "%s (identifier: %s) har kjøpt x%s %s for %sNOK",
+        "item-swapped-title": "Gjenstand byttet",
+        "item-swapped-desc": "%s (identifier: %s) har byttet x%s %s mot x%s %s",
+        "tool-broke-title": "Verktøy knakk",
+        "tool-broke-desc": "%s (identifier: %s) har ødelagt sin %s"
+    }
+}
